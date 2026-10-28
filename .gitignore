@@ -1,0 +1,26 @@
+# Virtual Environment
+.venv/
+.venv-sagemaker/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Experimental Model Artifacts
+artifacts/tuned_random_forest.pkl
+
+# Generated Deployment Artifacts
+model.tar.gz
+
+# Local artifact backup
+artifacts_original/
